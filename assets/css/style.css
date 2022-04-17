@@ -1185,7 +1185,7 @@ textarea.w-select {
 
 .w-background-video {
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     height: 500px;
     color: #fff
 }
