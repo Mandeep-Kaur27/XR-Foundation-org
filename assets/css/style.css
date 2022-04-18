@@ -861,48 +861,63 @@ textarea.w-select {
     .w-container {
         max-width: 728px
     }
+
     .w-hidden-main {
         display: inherit !important
     }
+
     .w-hidden-medium {
         display: none !important
     }
+
     .w-col-medium-1 {
         width: 8.33333333%
     }
+
     .w-col-medium-2 {
         width: 16.66666667%
     }
+
     .w-col-medium-3 {
         width: 25%
     }
+
     .w-col-medium-4 {
         width: 33.33333333%
     }
+
     .w-col-medium-5 {
         width: 41.66666667%
     }
+
     .w-col-medium-6 {
         width: 50%
     }
+
     .w-col-medium-7 {
         width: 58.33333333%
     }
+
     .w-col-medium-8 {
         width: 66.66666667%
     }
+
     .w-col-medium-9 {
         width: 75%
     }
+
     .w-col-medium-10 {
         width: 83.33333333%
     }
+
     .w-col-medium-11 {
         width: 91.66666667%
     }
+
     .w-col-medium-12 {
         width: 100%
     }
+
     .w-col-stack {
         width: 100%;
         left: auto;
@@ -911,56 +926,72 @@ textarea.w-select {
 }
 
 @media screen and (max-width:767px) {
+
     .w-hidden-main,
     .w-hidden-medium {
         display: inherit !important
     }
+
     .w-hidden-small {
         display: none !important
     }
+
     .w-container .w-row,
     .w-row {
         margin-left: 0;
         margin-right: 0
     }
+
     .w-col {
         width: 100%;
         left: auto;
         right: auto
     }
+
     .w-col-small-1 {
         width: 8.33333333%
     }
+
     .w-col-small-2 {
         width: 16.66666667%
     }
+
     .w-col-small-3 {
         width: 25%
     }
+
     .w-col-small-4 {
         width: 33.33333333%
     }
+
     .w-col-small-5 {
         width: 41.66666667%
     }
+
     .w-col-small-6 {
         width: 50%
     }
+
     .w-col-small-7 {
         width: 58.33333333%
     }
+
     .w-col-small-8 {
         width: 66.66666667%
     }
+
     .w-col-small-9 {
         width: 75%
     }
+
     .w-col-small-10 {
         width: 83.33333333%
     }
+
     .w-col-small-11 {
         width: 91.66666667%
     }
+
     .w-col-small-12 {
         width: 100%
     }
@@ -970,50 +1001,65 @@ textarea.w-select {
     .w-container {
         max-width: none
     }
+
     .w-hidden-main,
     .w-hidden-medium,
     .w-hidden-small {
         display: inherit !important
     }
+
     .w-hidden-tiny {
         display: none !important
     }
+
     .w-col {
         width: 100%
     }
+
     .w-col-tiny-1 {
         width: 8.33333333%
     }
+
     .w-col-tiny-2 {
         width: 16.66666667%
     }
+
     .w-col-tiny-3 {
         width: 25%
     }
+
     .w-col-tiny-4 {
         width: 33.33333333%
     }
+
     .w-col-tiny-5 {
         width: 41.66666667%
     }
+
     .w-col-tiny-6 {
         width: 50%
     }
+
     .w-col-tiny-7 {
         width: 58.33333333%
     }
+
     .w-col-tiny-8 {
         width: 66.66666667%
     }
+
     .w-col-tiny-9 {
         width: 75%
     }
+
     .w-col-tiny-10 {
         width: 83.33333333%
     }
+
     .w-col-tiny-11 {
         width: 91.66666667%
     }
+
     .w-col-tiny-12 {
         width: 100%
     }
@@ -1704,31 +1750,38 @@ textarea.w-select {
         height: 96vh;
         margin-top: 2vh
     }
+
     .w-lightbox-view,
     .w-lightbox-view:before {
         height: 96vh
     }
+
     .w-lightbox-group,
     .w-lightbox-group .w-lightbox-view,
     .w-lightbox-group .w-lightbox-view:before {
         height: 84vh
     }
+
     .w-lightbox-image {
         max-width: 96vw;
         max-height: 96vh
     }
+
     .w-lightbox-group .w-lightbox-image {
         max-width: 82.3vw;
         max-height: 84vh
     }
+
     .w-lightbox-left,
     .w-lightbox-right {
         display: block;
         opacity: .5
     }
+
     .w-lightbox-close {
         opacity: .8
     }
+
     .w-lightbox-control:hover {
         opacity: 1
     }
@@ -2028,6 +2081,7 @@ textarea.w-select {
     .w-nav[data-collapse=medium] .w-nav-menu {
         display: none
     }
+
     .w-nav[data-collapse=medium] .w-nav-button {
         display: block
     }
@@ -2037,9 +2091,11 @@ textarea.w-select {
     .w-nav[data-collapse=small] .w-nav-menu {
         display: none
     }
+
     .w-nav[data-collapse=small] .w-nav-button {
         display: block
     }
+
     .w-nav-brand {
         padding-left: 10px
     }
@@ -2106,6 +2162,7 @@ textarea.w-select {
     .w-nav[data-collapse=tiny] .w-nav-menu {
         display: none
     }
+
     .w-nav[data-collapse=tiny] .w-nav-button,
     .w-tab-link {
         display: block
@@ -2120,6 +2177,7 @@ textarea.w-select {
     0% {
         transform: rotate(0)
     }
+
     100% {
         transform: rotate(360deg)
     }
@@ -2733,7 +2791,7 @@ textarea.w-select {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 115%;
+    height: 100%;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -2808,6 +2866,10 @@ textarea.w-select {
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
     align-items: flex-end
+}
+
+.foundation__wrap .background-video-2.w-background-video.w-background-video-atom {
+    overflow: hidden;
 }
 
 .founda__text__card {
@@ -2904,6 +2966,9 @@ textarea.w-select {
     padding-top: 5.71em;
     padding-bottom: 0;
     background-color: #f7f7f7
+}
+.w-25{
+    width: 25%;
 }
 
 .footer__logo {
@@ -3195,7 +3260,7 @@ textarea.w-select {
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 3.3em;
-    padding-left: 7.85em
+    padding-left: 11.85em
 }
 
 .top__logo {
@@ -3267,7 +3332,7 @@ textarea.w-select {
 }
 
 .top__card {
-    margin-right: 13.57em
+    margin-right: 9.57em
 }
 
 .main__project {
@@ -3373,12 +3438,11 @@ textarea.w-select {
 
 .project__image {
     position: absolute;
-    top: 386px;
-    bottom: auto;
+    top: auto;
+    bottom: 0;
     z-index: -1;
     width: 68.21em;
     height: 62em;
-    margin-top: -77px
 }
 
 .project--img {
@@ -3768,22 +3832,26 @@ textarea.w-select {
         padding-top: 5em;
         padding-bottom: 5em
     }
+
     .submit-button-2 {
         margin-top: 21px
     }
+
     .footer-2 {
         border: 1px solid #fff;
-        background-color: #000
     }
+
     .div-block-29,
     .footer-link,
     .text-block-17 {
         color: #fff
     }
+
     .footer-image {
         border-radius: 10px;
         background-color: #fff
     }
+
     .background-video-2 {
         margin: 3px 3px 5px
     }
@@ -3793,40 +3861,49 @@ textarea.w-select {
     .foundation--section {
         border-radius: 0
     }
+
     .body {
         font-size: 12px
     }
+
     .paragraph-29 {
         margin-top: 20px;
         margin-left: -137px;
         font-family: Montserrat, sans-serif;
         font-size: 18px
     }
+
     .columns-8 {
         font-family: Montserrat, sans-serif;
         font-size: 14px
     }
+
     .contact-form-2 {
         margin-top: 89px
     }
+
     .footer-2 {
         background-color: #5c5cff
     }
+
     .footer-heading,
     .footer-link {
         font-family: Inter, sans-serif
     }
+
     .footer-image {
         margin-right: -29px;
         margin-bottom: 0;
         border-radius: 9px
     }
+
     .background-video-2 {
         width: 300px;
         height: 220px;
         margin: 10px;
         border-radius: 10px
     }
+
     .div-block-30 {
         position: static;
         display: block;
@@ -3846,42 +3923,52 @@ textarea.w-select {
         margin-right: 20px;
         margin-left: 20px
     }
+
     .navbar {
         position: absolute;
         background-color: #fff
     }
+
     .link__icon.link__child__2 {
         margin-right: 1.7em;
         margin-left: 1.7em
     }
+
     .heading-8 {
         margin-right: -519px;
         margin-left: -5px;
         padding-right: 0
     }
+
     .found__p {
         padding-right: 3.5em
     }
+
     .body {
         font-size: 14px
     }
+
     .sponsor--section {
         padding-top: 5em;
         padding-bottom: 5em
     }
+
     .sponsor__image {
         width: 14em;
         height: 4em;
         -o-object-fit: contain;
         object-fit: contain
     }
+
     .sponsor__image.nth-child-1 {
         width: 20em
     }
+
     .sponsor__image.srlogo {
         width: 20em;
         height: 6em
     }
+
     .sponsor__image.wc_icon {
         width: 20em;
         -webkit-box-align: start;
@@ -3892,6 +3979,7 @@ textarea.w-select {
         -ms-flex-item-align: start;
         align-self: flex-start
     }
+
     .sponsor__img {
         width: 18em;
         height: 4em;
@@ -3899,16 +3987,20 @@ textarea.w-select {
         -ms-flex-item-align: start;
         align-self: flex-start
     }
+
     .sponsor__img.ll_icon {
         width: 22em
     }
+
     .top__card {
         margin-right: 11.57em
     }
+
     .image-2 {
         max-width: none;
         line-height: 20
     }
+
     .image-3 {
         display: block;
         max-width: none;
@@ -3918,6 +4010,7 @@ textarea.w-select {
         flex: 0 0 auto;
         line-height: 20
     }
+
     .paragraph-29 {
         margin-left: -144px
     }
@@ -3936,23 +4029,29 @@ textarea.w-select {
         -ms-flex-align: center;
         align-items: center
     }
+
     .team__card {
         width: 26%
     }
+
     .team__card.t--card.ipad {
         opacity: 0
     }
+
     .team__card.t--card.ipad--view {
         margin-bottom: 4em
     }
+
     .box__image {
         width: 15.1em;
         height: 15.1em
     }
+
     .image-team {
         padding-right: 0;
         padding-left: 0
     }
+
     .nav-menu {
         width: 100%;
         height: 100vh;
@@ -3960,6 +4059,7 @@ textarea.w-select {
         padding-left: 0;
         background-color: #000
     }
+
     .nav-link,
     .nav-link-2,
     .nav-link-3,
@@ -3968,6 +4068,7 @@ textarea.w-select {
         color: #fff;
         font-size: 2em
     }
+
     .header__btn {
         display: -webkit-box;
         display: -webkit-flex;
@@ -3978,13 +4079,16 @@ textarea.w-select {
         -ms-flex-align: center;
         align-items: center
     }
+
     .button-2.submit {
         margin-left: 305px
     }
+
     .heading-8 {
         margin-right: auto;
         margin-left: auto
     }
+
     .foundation__wrap {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -3992,36 +4096,47 @@ textarea.w-select {
         -ms-flex-direction: column;
         flex-direction: column
     }
+
     .founda__text__card {
         width: 100%
     }
+
     .found__p {
         padding-right: 0
     }
+
     .found__t__image {
         margin-bottom: 2em
     }
+
     .found__image__card {
         width: 100%
     }
+
     .top__card {
         margin-right: 1em
     }
+
     .project__wrap {
         padding-left: 0
     }
+
     .project__card {
         width: 50%
     }
+
     .project__text {
         padding-right: 2em
     }
+
     .heading-12 {
         font-size: 1.8em
     }
+
     .project__image {
         display: none
     }
+
     .menu-button {
         margin-right: 0;
         margin-left: .6em;
@@ -4029,34 +4144,42 @@ textarea.w-select {
         border: 2px solid #000;
         border-radius: 6px 6px 6px 0
     }
+
     .menu-button.w--open {
         border: 2px solid #000;
         border-radius: 6px 6px 6px 0;
         background-color: transparent
     }
+
     .icon {
         color: #000
     }
+
     .footer__icons-2 {
         margin-left: -307px
     }
+
     .paragraph-29 {
         margin-right: 30px;
         margin-left: -154px
     }
+
     .submit-button-2 {
         margin-left: 293px;
         border-radius: 7px
     }
+
     .footer-2 {
         padding-right: 20px;
         padding-left: 20px
     }
+
     .background-video-2 {
         margin-top: 5px;
         margin-right: 5px;
         margin-bottom: 5px
     }
+
     .div-block-30 {
         -webkit-align-self: flex-start;
         -ms-flex-item-align: start;
@@ -4085,6 +4208,7 @@ textarea.w-select {
         -ms-grid-rows: auto auto;
         grid-template-rows: auto auto
     }
+
     .team__card {
         position: relative;
         display: block;
@@ -4101,52 +4225,66 @@ textarea.w-select {
         -ms-grid-rows: auto auto;
         grid-template-rows: auto auto
     }
+
     .team__card.t--card {
         margin-bottom: 4em
     }
+
     .team__card.t--card.ipad {
         display: none
     }
+
     .heading-2 {
         font-size: 1.2em
     }
+
     .image-team {
         width: auto;
         height: auto;
         max-width: 80%
     }
+
     .heading-4 {
         font-size: 1.1em
     }
+
     .contact-form {
         padding: 40px 20px
     }
+
     .form__main {
         width: 100%
     }
+
     .form__space {
         padding-right: 0;
         padding-left: 0
     }
+
     .nav-menu {
         padding-top: 4em;
         padding-left: 0
     }
+
     .brand {
         padding-left: 0
     }
+
     .button-2.submit {
         margin-left: 214px
     }
+
     .hero--section {
         height: 65em
     }
+
     .heading-8 {
         margin-right: auto;
         margin-left: -2px;
         padding-left: 0;
         font-size: 3em
     }
+
     .footer__nav {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -4154,17 +4292,21 @@ textarea.w-select {
         -ms-flex-direction: column;
         flex-direction: column
     }
+
     .link,
     .link-2,
     .link-3 {
         margin-right: 0
     }
+
     .sponsor__head {
         margin-bottom: 2em
     }
+
     .heading-10 {
         font-size: 1.1em
     }
+
     .sponsor__card {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -4173,12 +4315,14 @@ textarea.w-select {
         flex-direction: column;
         text-align: center
     }
+
     .sponsor__image {
         -webkit-align-self: center;
         -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center
     }
+
     .sponsor__image.nth-child-1 {
         margin-right: 0;
         margin-bottom: 1em;
@@ -4187,13 +4331,16 @@ textarea.w-select {
         -ms-grid-row-align: center;
         align-self: center
     }
+
     .project--section {
         z-index: 999;
         padding-top: 5em
     }
+
     .heading-11 {
         font-size: 1.1em
     }
+
     .top__wrap {
         margin-bottom: 4em;
         padding-left: 0;
@@ -4203,40 +4350,51 @@ textarea.w-select {
         -ms-flex-direction: column;
         flex-direction: column
     }
+
     .top__card {
         margin-bottom: 2em
     }
+
     .main__project {
         padding-right: 10%
     }
+
     .project__card {
         width: 100%;
         margin-bottom: 1em
     }
+
     .project__card.project__c3 {
         width: 100%;
         margin-bottom: 0
     }
+
     .project__card.project__c3.mobile-view {
         margin-bottom: 0
     }
+
     .heading-12 {
         font-size: 1.4em
     }
+
     .project__image {
         display: none;
         width: auto;
         height: auto
     }
+
     .vector_bg {
         width: 100%
     }
+
     .nav__child {
         margin-bottom: 1em
     }
+
     .heading-13 {
         font-size: 2em
     }
+
     .project-bg {
         position: absolute;
         left: 0;
@@ -4249,40 +4407,73 @@ textarea.w-select {
         height: 100%;
         background-color: rgba(168, 168, 255, .23)
     }
+
     .image-14 {
         margin-top: 15px
     }
+
     .footer__icons-2 {
         margin-top: -48px;
         margin-left: -100px
     }
+
     .list-4 {
         margin-top: -15px;
         padding-left: 69px
     }
+
     .grid-10 {
         margin-left: -2px;
         padding-left: 0
     }
+
     .paragraph-29 {
         margin-top: 34px;
         margin-left: -441px
     }
+
     .column-16 {
         padding-left: 80px
     }
+
     .contact-form-2 {
         padding: 40px 20px
     }
+
     .submit-button-2 {
         margin-left: 192px
     }
+
     .footer-2 {
         padding: 40px 20px
     }
+
     .footer-image {
         -o-object-fit: contain;
         object-fit: contain
+    }
+    .footer-flex-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+    .footer-2 {
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: left
+    }
+
+    .footer-heading {
+        margin-top: 20px
+    }
+
+    .footer-logo-link {
+        height: 60px
+    }
+    .footer-image {
+        max-width: 70%;
     }
 }
 
@@ -4302,6 +4493,10 @@ textarea.w-select {
         padding-top: 4em;
         padding-bottom: 4em
     }
+    .foundation__wrap .div-block-30 {
+        flex-direction: column;
+    }
+
     .team__wrap {
         padding-right: 0;
         padding-left: 0;
@@ -4309,44 +4504,56 @@ textarea.w-select {
         -ms-flex-line-pack: stretch;
         align-content: stretch
     }
+
     .team__card {
         width: 46%
     }
+
     .team__card.t--card.mobile-sec {
         margin-bottom: 0
     }
+
     .box__image {
         width: 90%;
         height: auto
     }
+
     .heading-2 {
         font-size: 1em
     }
+
     .image-team {
         max-width: 100%
     }
+
     .submit-button {
         font-size: 1em
     }
+
     .button-2.submit {
         margin-left: 80px
     }
+
     .hero--section {
         height: 55em;
         background-position: 50% 50%
     }
+
     .heading-8 {
         margin-right: auto;
         margin-left: -208px;
         padding-left: 195px
     }
+
     .foundation--section {
         padding-top: 6em;
         padding-bottom: 6em
     }
+
     .foundation__wrap {
         padding-left: 4em
     }
+
     .sponsor__image {
         width: 14em;
         height: 6em;
@@ -4354,9 +4561,11 @@ textarea.w-select {
         -o-object-fit: contain;
         object-fit: contain
     }
+
     .sponsor__image.nth-child-1 {
         width: 12em
     }
+
     .sponsor__image.srlogo {
         width: 14em;
         -webkit-box-pack: justify;
@@ -4364,21 +4573,26 @@ textarea.w-select {
         -ms-flex-pack: justify;
         justify-content: space-between
     }
+
     .sponsor__img {
         width: 12em;
         height: 8em
     }
+
     .sponsor__img.ll_icon {
         -o-object-fit: contain;
         object-fit: contain
     }
+
     .button-3 {
         font-size: 1em
     }
+
     .project--section {
         padding-top: 4em;
         padding-bottom: 6em
     }
+
     .project__card {
         margin-bottom: 1em;
         -webkit-box-align: start;
@@ -4386,77 +4600,73 @@ textarea.w-select {
         -ms-flex-align: start;
         align-items: flex-start
     }
+
     .project__card.project__c3,
     .project__card.project__c3.mobile-view {
         margin-bottom: 1em
     }
+
     .project__circle {
         width: 3em;
         height: 3em;
         margin-top: .5em
     }
+
     .project__image {
         bottom: 0
     }
+
     .image-2 {
         max-width: 3em;
         -o-object-fit: contain;
         object-fit: contain
     }
+
     .image-3 {
         -webkit-box-flex: 0;
         -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
         flex: 0 0 auto
     }
+
     .image-4 {
         -o-object-fit: contain;
         object-fit: contain
     }
+
     .image-14 {
         margin-left: 44px
     }
+
     .footer__icons-2 {
         margin-top: 6px;
         margin-left: -658px
     }
+
     .paragraph-29 {
         margin-left: -396px;
         padding-left: 0;
         font-size: 18px
     }
+
     .contact-form-2.fb {
         margin-top: 10px
     }
+
     .submit-button-2 {
         margin-left: 75px
     }
-    .footer-flex-container {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column
-    }
-    .footer-2 {
-        padding-right: 20px;
-        padding-left: 20px;
-        text-align: left
-    }
-    .footer-heading {
-        margin-top: 20px
-    }
-    .footer-logo-link {
-        height: 60px
-    }
+
     .text-block-17 {
         display: block;
         text-align: center
     }
+
     .background-video-2 {
         width: 200px;
         height: 160px
     }
+
     #w-node-deb6e4ba-8646-0ef4-a867-ce5aa9459cdd-d37c6fed,
     #w-node-deb6e4ba-8646-0ef4-a867-ce5aa9459ce1-d37c6fed,
     #w-node-deb6e4ba-8646-0ef4-a867-ce5aa9459ce5-d37c6fed,
@@ -4527,3 +4737,90 @@ textarea.w-select {
     font-style: italic;
     font-display: swap;
 }
+
+
+
+.form__space textarea.w-input,
+textarea.w-select {
+    height: 12.28em;
+}
+
+input#First-Name {
+    font-size: 1em !important;
+    padding: 1.75em 0.75em;
+}
+
+input#Last-Name {
+    font-size: 1em !important;
+    padding: 1.75em 0.75em;
+}
+
+input#Email {
+    font-size: 1em !important;
+    padding: 1.75em 0.75em;
+}
+
+input#Contact-Phone-Number {
+    font-size: 1em !important;
+    padding: 1.75em 0.75em;
+}
+
+@media screen and (max-width: 1024px) {
+    .foundation__wrap .div-block-30 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .foundation__wrap {
+        flex-direction: column;
+    }
+    .founda__text__card {
+        width: 100%;
+    }
+    .top__wrap {
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .project__wrap {
+        padding-left: 15em !important;
+    }
+
+    .team__card {
+        width: 26%;
+    }
+
+    .team__card:nth-child(8) {
+        margin-right: auto;
+        margin-left: 7em;
+    }
+
+    .team__wrap {
+        /* -webkit-box-align: center; */
+        /* -webkit-align-items: center; */
+        align-items: baseline;
+        /* align-content: space-between; */
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .project__wrap {
+        padding-left: 0em !important;
+    }
+
+    .team__card {
+        width: 50%;
+    }
+
+    .team__card:nth-child(8) {
+        margin-right: auto;
+        margin-left: 0em;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .team__card {
+        width: 50%;
+    }
+}
+
